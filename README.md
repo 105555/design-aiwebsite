@@ -1,4 +1,8 @@
 # 網頁切版直播班 Vite 範例
+  - Bootstrap 5
+  - RWD
+    
+## Github Pages : 
 
 ## Node.js 版本
   - 專案的 Node.js 版本需為 v16 以上
