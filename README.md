@@ -2,7 +2,7 @@
   - Bootstrap 5
   - RWD
     
-## Github Pages : 
+## Github Pages : https://105555.github.io/Week8_AI_Group/
 
 ## Node.js 版本
   - 專案的 Node.js 版本需為 v16 以上
