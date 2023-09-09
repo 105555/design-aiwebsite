@@ -1,0 +1,8 @@
+// 因為設計稿的漸層色是以heigth: 960px,單獨用在 navbar 顏色會不准所以另外設定
+.navbar-bg{
+    background: linear-gradient(180deg, rgba($indigo-200, 1), rgba(104,0,238, 1));
+  }
+// 摺疊選單(平板開始)的漸層背景
+.navbar-collapse{
+  @include gradient-y;
+}

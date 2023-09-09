@@ -1,0 +1,19 @@
+.img-circle{
+    width: 196px;
+    height: 196px;
+    animation-name: rotate360;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+}
+@keyframes rotate360 {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(359deg);  }
+  }
+
+//   尺寸
+.img-circle-sm{
+    width: 132px;
+    height: 132px;
+}

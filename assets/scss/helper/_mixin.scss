@@ -1,0 +1,60 @@
+// scss斷點設定
+@mixin sm{
+    @media (min-width:576px) {
+        @content;
+    }
+}
+@mixin md{
+    @media (min-width:768px) {
+        @content;
+    }
+}
+@mixin lg{
+    @media (min-width:992px) {
+        @content;
+    }
+}
+@mixin xl{
+    @media (min-width:1200px) {
+        @content;
+    }
+}
+@mixin xxl{
+    @media (min-width:1400px) {
+        @content;
+    }
+}
+@mixin cus{
+    @media (min-width:1784px) {
+        @content;
+    }
+}
+//漸層背景使用方法: e.g. index.scss => .news{ @include gradient-radial; } 
+
+// 水平漸層
+//左至右
+@mixin gradient-x($start-color: $indigo-200, $end-color: $indigo-600, $start-percent: 0%, $end-percent: 100%) {
+    background-image: linear-gradient(to right, $start-color $start-percent, $end-color $end-percent);
+}
+
+//右至左
+@mixin gradient-x-reverse($start-color: $indigo-200, $end-color: $indigo-600, $start-percent: 0%, $end-percent: 100%) {
+    background-image: linear-gradient(to left, $start-color $start-percent, $end-color $end-percent);
+}
+
+// 垂直漸層
+// 使用頁面: index-banner區
+@mixin gradient-y($start-color: $indigo-200, $end-color: $indigo-600, $start-percent: 0%, $end-percent: 100%) {
+    background-image: linear-gradient(to bottom, $start-color $start-percent, $end-color $end-percent);
+}
+
+// 放射狀 radial
+// 使用頁面: index-最新消息區 / about-us / news / contact-us / sign-in / sign-up
+// @mixin gradient-radial($inner-color: #28085c, $outer-color: $black) {
+//     background-image: radial-gradient(circle, $inner-color, $outer-color);
+// }
+
+// 使用頁面: index-使用分享區
+// @mixin gradient-radial-reverse($inner-color: $black, $outer-color: #28085c) {
+//     background-image: radial-gradient(circle, $inner-color, $outer-color);
+// }

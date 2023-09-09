@@ -1,0 +1,27 @@
+.img-news {
+    width:301px;
+    height: 108px;
+
+    @include lg {
+        width: 196px;
+        height: 226px;
+    }
+}
+.img-newsIng{
+    width: 351px;
+    height: 506px;
+  
+    @include lg{
+        width: 416px;
+        height: 600px;
+    }
+}
+.text-news {
+    height: 226px;
+}
+.img-news-hover:hover {
+    opacity: .7;
+}
+.ul-p-0{
+    padding-left: 0;
+}
