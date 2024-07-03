@@ -24,7 +24,7 @@
   - 自動生成 dist 資料夾，無需進行打包
 
 
-### 專案呈現 : <https://105555.github.io/Design_AIWebSite_Group/>
+### 專案呈現 : <https://105555.github.io/Design_AIWebsite_Group/>
 
 ### 注意事項
 - 如需更改首頁路徑須從 vite.config.js 中修改
