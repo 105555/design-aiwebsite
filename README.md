@@ -23,7 +23,13 @@
 - -> 執行 `npm run deploy` 指令進行自動化部署
   - 自動生成 dist 資料夾，無需進行打包
 
+
 ### 專案呈現 : <https://105555.github.io/Design_AIWebSite_Group/>
 
 ### 注意事項
 - 如需更改首頁路徑須從 vite.config.js 中修改
+- 如因不明原因部署失敗可改為手動部署
+  1. 進入 Repo 首頁點擊 Settings
+  2. 左側選單切換到 Pages
+  3. 點擊 source 更改為 Deploy from a branch 
+  4. 點擊 branch 選擇 gh-pages  
