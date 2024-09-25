@@ -28,8 +28,4 @@
 
 ### 注意事項
 - 部署首頁路徑檔名需為 index
-- 如因不明原因部署失敗可改為手動部署
-  1. 進入 Repo 首頁點擊 Settings
-  2. 左側選單切換到 Pages
-  3. 點擊 source 更改為 Deploy from a branch 
-  4. 點擊 branch 選擇 gh-pages  
+- vite.config { base : XXX } 需為專案名稱
